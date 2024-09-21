@@ -1,3 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;    
+}
+
 #canvasBuffer{
     width: 25vw;
 }
@@ -5,4 +21,18 @@
 #displayColour{
     width: 100px;
     height: 100px;
+}
+
+.mainCard{
+    background-color: #ffffff07;
+    padding: 1em;
+    width: 45vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.29) 15px 15px 35px 35px;
+}
+
+#canvasBuffer{
+    width: 100%;
+    border: 1px #242424 solid;
 }
